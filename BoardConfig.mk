@@ -18,7 +18,7 @@
 -include device/realme/sdm710-common/BoardConfigCommon.mk
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
+# TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
 TARGET_KERNEL_CONFIG := RMX1851_defconfig
 
 # Partitions
