@@ -18,8 +18,7 @@
 -include device/realme/sdm710-common/BoardConfigCommon.mk
 
 # Kernel
-# TARGET_KERNEL_SOURCE := kernel/realme/RMX1851
-TARGET_KERNEL_CONFIG := RMX1851_defconfig
+TARGET_PREBUILT_KERNEL := device/realme/RMX1851/prebuilt/Image.gz-dtb
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 5578424320
